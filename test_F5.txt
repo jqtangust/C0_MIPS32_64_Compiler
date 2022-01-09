@@ -1,0 +1,15 @@
+const int jump = 10;
+
+void main()
+{
+	int a;
+	scanf(a);
+	if(jump>=a)
+	{
+		printf("BIGGER");
+	}
+	else
+	{
+		printf("SMALLER");
+	}
+}

@@ -1,0 +1,11 @@
+const int a=1;
+
+void main()
+{
+    int b;
+    b = 1;
+    printf("A_result");
+    printf(a);
+    printf("B_result");
+    printf(b);
+}

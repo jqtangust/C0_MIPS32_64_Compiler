@@ -1,0 +1,14 @@
+
+const int num_times_in_do_while=20;
+
+void main()
+{
+	int a;
+	a = num_times_in_do_while;
+	printf("This case is for while sentense\n");
+	while(a>0){
+	a=a-1;
+	printf("Leave ",a);
+	printf(" times\n");
+    }
+}

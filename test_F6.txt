@@ -1,0 +1,18 @@
+
+void main()
+{
+	int a;
+    printf("Please enter a num From 1 to 7: ");
+	scanf(a);
+
+	switch(a){
+        case 1:printf("One\n");
+        case 2:printf("Two\n");
+        case 3:printf("Three\n");
+        case 4:printf("Four\n");
+        case 5:printf("Five\n");
+        case 6:printf("Six\n");
+        case 7:printf("Seven\n");
+        default:printf("All Wrong!\n");
+    }	
+}

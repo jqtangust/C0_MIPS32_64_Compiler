@@ -1,0 +1,13 @@
+int a[10];
+
+void main()
+{
+    int t1;
+    int t2;
+    int t3;
+    int t4;
+    scanf(t1);
+    scanf(t4);
+    printf(t4);
+    printf(t1);
+}

@@ -1,0 +1,15 @@
+const int t=0;
+
+void main()
+{
+    int a;
+    int b;
+    int c;
+    int D;
+    int EFG;
+    a=0;
+    b=1;
+    EFG=5;
+    printf(a);
+    printf("yes"); 
+}

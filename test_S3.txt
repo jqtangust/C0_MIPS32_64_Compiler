@@ -1,0 +1,58 @@
+int mk[10];
+
+int cmp(int a, int b)
+{
+    char tmp[12];
+    int c;
+	int d;
+	c = -2;
+	c = -(c*d)+b;
+	
+    if(a==b)
+    {
+		a = b + 1;
+        d = a - b;
+        c = a*2-b;
+    }
+    else 
+	{
+		a = 3;
+	}
+	
+    c = a;
+	
+    return(a+c);
+}
+
+int change(int t)
+{
+	int i;
+	i = 9;
+	
+	while(i!=0)
+	{
+		mk[i] = 5;
+		i = i - 1;
+	}
+	mk[0] = t;
+	printf("YES");
+	return(i);
+}
+
+void main()
+{
+	int f;
+	int g;
+	int h;
+	int b;
+	b = 2;
+	g = 1;
+	
+	f = cmp(g,h);
+	g = change(b);
+	
+	if(f<h)
+	{
+		printf(f);
+	}
+}

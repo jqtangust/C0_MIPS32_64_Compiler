@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Syntax.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Symbol_Table.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Asm_Code.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Optim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Register_Assign.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Asm_Code_MIPS64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="C0.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="LEX.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Syntax.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="IR.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Debug.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_F1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_F2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_S2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_F3.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_F4.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_E1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_F5.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_F10.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_F6.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_F7.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_F8.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_F9.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_S3.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Block_IR.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Optim_IR.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_O1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test_O2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Data_Stream.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="MIPS64.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="test_S1.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="packages.config" />
+    <None Include="code.s">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="MIPS64_Code.s">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="head.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Syntax.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Symbol_Table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Asm_Code.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Optim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Register_Assign.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Asm_Code_MIPS64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

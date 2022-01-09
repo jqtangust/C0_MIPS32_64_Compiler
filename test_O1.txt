@@ -1,0 +1,44 @@
+
+//窥孔优化
+
+int peerhole(int t)
+{
+	int a;
+	int b;
+	char c;
+	char d;
+	int k[10];
+	char f[10];
+	
+	a=0;
+	printf(a);
+}
+
+//消除公共子表达式
+void main()
+{
+	int a;
+	int b;
+	int c;
+	int d;
+
+	int k;
+
+	b=3;
+	a=9;
+	a=9;
+	a=9;
+	b=3;
+	b=3;
+	c=a;
+	c=a;
+	c=a;
+	d=a;
+	d=b;
+	d=b;
+	d=b;
+
+	printf(k);
+	printf("\n");
+	printf(k);
+}

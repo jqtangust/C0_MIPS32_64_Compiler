@@ -1,0 +1,63 @@
+//³£Êý´«²¥
+
+const int a=10,b=5;
+const char c='t';
+
+void main()
+{
+	char k;
+	int t1;
+	int t2;
+	int t3;
+	t1=a+1;
+	t2=a+b;
+	t3=9+b;
+
+	k=c;
+
+	printf(k);
+	printf("\n");
+	printf(t1);
+	printf("\n");
+	printf(t2);
+	printf("\n");
+	printf(t3);
+
+	t1=a*1;
+	t2=a*b;
+	t3=9*b;
+
+	printf(k);
+	printf("\n");
+	printf(t1);
+	printf("\n");
+	printf(t2);
+	printf("\n");
+	printf(t3);
+
+	t1=a/1;
+	t2=a/b;
+	t3=9/b;
+
+	printf(k);
+	printf("\n");
+	printf(t1);
+	printf("\n");
+	printf(t2);
+	printf("\n");
+	printf(t3);
+
+	t1=a-1;
+	t2=a-b;
+	t3=9-b;
+
+	k=c;
+
+	printf(k);
+	printf("\n");
+	printf(t1);
+	printf("\n");
+	printf(t2);
+	printf("\n");
+	printf(t3);
+}

@@ -1,0 +1,122 @@
+lex_const_id             7         const
+*语法分析：程序开始
+*语法分析：常量说明开始
+lex_int_id               1         int
+*语法分析：常量定义开始
+lex_indentifer           20        jump
+*语法分析：标识符开始
+lex_equal_id             32        =
+*语法分析：标识符结束
+lex_NotZeroHeadNum_id    45        10
+lex_semicolon_id         34        ;
+*语法分析：常量定义结束
+lex_void_id              6         void
+*语法分析：常量说明结束
+***[readAhead]***   lex_main_id              19        main
+***[readAhead]***   lex_leftparenthesis_id   39        (
+***[rollBack]***
+***[readAhead]***   lex_main_id              19        main
+***[rollBack]***
+*语法分析：主函数开始
+lex_main_id              19        main
+lex_leftparenthesis_id   39        (
+lex_rightparenthesis_id  40        )
+lex_leftbraces_id        43        {
+lex_int_id               1         int
+*语法分析：复合语句开始
+*语法分析：变量声明开始
+*语法分析：变量定义开始
+*语法分析：类型标识符开始
+lex_indentifer           20        a
+*语法分析：类型标识符结束
+*语法分析：标识符开始
+lex_semicolon_id         34        ;
+*语法分析：标识符结束
+*语法分析：变量定义结束
+lex_scanf_id             17        scanf
+*语法分析：变量声明结束
+*语法分析：语句列开始
+*语法分析：语句开始
+*语法分析：读语句开始
+lex_leftparenthesis_id   39        (
+lex_indentifer           20        a
+*语法分析：标识符开始
+lex_rightparenthesis_id  40        )
+*语法分析：标识符结束
+lex_semicolon_id         34        ;
+*语法分析：读语句结束
+lex_if_id                8         if
+*语法分析：语句结束
+*语法分析：语句开始
+*语法分析：条件语句开始
+lex_leftparenthesis_id   39        (
+lex_indentifer           20        jump
+*语法分析：条件开始
+*语法分析：表达式开始
+*语法分析：项开始
+*语法分析：因子开始
+***[readAhead]***   lex_greaterequal_id      29        >=
+***[rollBack]***
+*语法分析：标识符开始
+lex_greaterequal_id      29        >=
+*语法分析：标识符结束
+*语法分析：因子结束
+*语法分析：项结束
+*语法分析：表达式结束
+*语法分析：关系运算符开始
+lex_indentifer           20        a
+*语法分析：关系运算符结束
+*语法分析：表达式开始
+*语法分析：项开始
+*语法分析：因子开始
+***[readAhead]***   lex_rightparenthesis_id  40        )
+***[rollBack]***
+*语法分析：标识符开始
+lex_rightparenthesis_id  40        )
+*语法分析：标识符结束
+*语法分析：因子结束
+*语法分析：项结束
+*语法分析：表达式结束
+*语法分析：条件结束
+lex_leftbraces_id        43        {
+*语法分析：语句开始
+lex_printf_id            16        printf
+*语法分析：语句列开始
+*语法分析：语句开始
+*语法分析：写语句开始
+lex_leftparenthesis_id   39        (
+lex_string_id            46        "BIGGER"
+*语法分析：字符串开始
+lex_rightparenthesis_id  40        )
+*语法分析：字符串结束
+lex_semicolon_id         34        ;
+*语法分析：写语句结束
+lex_rightbraces_id       44        }
+*语法分析：语句结束
+*语法分析：语句列结束
+lex_else_id              9         else
+*语法分析：语句结束
+lex_leftbraces_id        43        {
+*语法分析：语句开始
+lex_printf_id            16        printf
+*语法分析：语句列开始
+*语法分析：语句开始
+*语法分析：写语句开始
+lex_leftparenthesis_id   39        (
+lex_string_id            46        "SMALLER"
+*语法分析：字符串开始
+lex_rightparenthesis_id  40        )
+*语法分析：字符串结束
+lex_semicolon_id         34        ;
+*语法分析：写语句结束
+lex_rightbraces_id       44        }
+*语法分析：语句结束
+*语法分析：语句列结束
+lex_rightbraces_id       44        }
+*语法分析：语句结束
+*语法分析：条件语句结束
+*语法分析：语句结束
+*语法分析：语句列结束
+*语法分析：复合语句结束
+*语法分析：主函数结束
+*语法分析：程序结束

@@ -1,0 +1,12 @@
+< const, int  ,      , jump  >  ---Block: 0
+< =    , 10   ,      , jump  >  ---Block: 0
+< func ,      ,      , main  >  ---Block: 1
+< int  ,      ,      , a     >  ---Block: 1
+< scanf,      ,      , a     >  ---Block: 1
+< <    , 10   , a    , Function_ >  ---Block: 1
+< printf, "BIGGER",      ,       >  ---Block: 2
+< jmp  ,      ,      , Function_1 >  ---Block: 2
+< lab  ,      ,      , Function_ >  ---Block: 3
+< printf, "SMALLER",      ,       >  ---Block: 3
+< lab  ,      ,      , Function_1 >  ---Block: 4
+< exit ,      ,      , main  >  ---Block: 4

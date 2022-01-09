@@ -1,0 +1,9 @@
+int k;
+
+void main()
+{
+    k = 1;
+    printf("Analysis_Phase_Error");
+    b = 1;
+    printf("OK?");
+}

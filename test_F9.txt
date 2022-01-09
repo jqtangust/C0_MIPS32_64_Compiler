@@ -1,0 +1,37 @@
+const int a=5;
+const char charb='K';
+
+int F1()
+{
+	int k;
+	k=6;
+	while(k!=0)
+	{
+		printf(a);
+		k=k-1;
+	}
+	return(k);
+}
+
+char F2()
+{
+	int k;
+	k=6;
+	while(k!=0)
+	{
+		printf(charb);
+		k=k-1;
+	}
+	return(charb);
+}
+
+void main()
+{
+	char A;
+	int B;
+	A=F2();
+	B=F1();
+	printf(A);
+	printf("\n------\n");
+	printf(B);
+}

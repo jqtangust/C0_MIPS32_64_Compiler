@@ -1,0 +1,11 @@
+const char Const_char='H';
+
+void main()
+{
+	char myChar,myCharrrrrrrrr2;
+	myChar='K';
+	myCharrrrrrrrr2='O';
+	printf(myChar);
+	printf(myCharrrrrrrrr2);
+	printf(Const_char);
+}

@@ -1,0 +1,70 @@
+int m[10];
+
+void main()
+{
+	int f;
+	int g;
+	int h;
+	int i;
+	int k;
+	int tmp;
+
+	scanf(f);
+	scanf(g);
+	scanf(h);
+	scanf(i);
+	scanf(k);
+	
+	printf("\nNow Print Numbers\n");
+	printf(f);
+	printf("\n");
+	printf(g);
+	printf("\n");
+	printf(h);
+	printf("\n");
+	printf(i);
+	printf("\n");
+	printf(k);
+	printf("\n");
+
+	printf("\nNow Print Plus\n");
+	tmp=f+g;
+	printf("\n",tmp);
+	tmp=f+h;
+	printf("\n",tmp);
+	tmp=f+i;
+	printf("\n",tmp);
+	tmp=f+k;
+	printf("\n",tmp);
+
+	printf("\nNow Print Mutiply\n");
+	tmp=f*g;
+	printf("\n",tmp);
+	tmp=f*h;
+	printf("\n",tmp);
+	tmp=f*i;
+	printf("\n",tmp);
+	tmp=f*k;
+	printf("\n",tmp);
+
+	printf("\nNow Print Divide\n");
+	tmp=f/g;
+	printf("\n",tmp);
+	tmp=f/h;
+	printf("\n",tmp);
+	tmp=f/i;
+	printf("\n",tmp);
+	tmp=f/k;
+	printf("\n",tmp);
+
+	printf("\nNow Print Minus\n");
+	tmp=f-g;
+	printf("\n",tmp);
+	tmp=f-h;
+	printf("\n",tmp);
+	tmp=f-i;
+	printf("\n",tmp);
+	tmp=f-k;
+	printf("\n",tmp);
+
+}
