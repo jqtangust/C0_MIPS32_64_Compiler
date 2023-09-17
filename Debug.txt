@@ -1,0 +1,12 @@
+< const   , int     ,         , jump     >
+< =       , 10      ,         , jump     >
+< func    ,         ,         , main     >
+< int     ,         ,         , a        >
+< scanf   ,         ,         , a        >
+< <       , jump    , a       , Function_ >
+< printf  , "BIGGER",         ,          >
+< jmp     ,         ,         , Function_1 >
+< lab     ,         ,         , Function_ >
+< printf  , "SMALLER",         ,          >
+< lab     ,         ,         , Function_1 >
+< exit    ,         ,         , main     >

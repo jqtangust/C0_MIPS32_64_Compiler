@@ -1,0 +1,5 @@
+BLOCK  condition   TRUE   FALSE  
+1      10<a        3      2           
+2      jmp         4      -1          
+3      TRUE        4      -1          
+4      exit        0      -1          
